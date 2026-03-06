@@ -71,7 +71,7 @@ export default function FormContact() {
     }
 
     return (
-        <div className="w-full md:w-150 overflow-x-hidden">
+        <div className="w-full md:w-150 ">
             <Card className={`${lato.className}  bg-gray-100 text-black font-medium`}>
                 <CardContent>
                     <form id="form-rhf-demo" onSubmit={form.handleSubmit(onSubmit)}>
@@ -175,10 +175,10 @@ export default function FormContact() {
                 </CardContent>
                 <CardFooter>
                     <Field orientation="horizontal">
-                        <Button type="button" variant="outline" onClick={() => form.reset()} className={`${lato.className} text-white font-bold`}>
+                        <Button type="button" variant="outline" onClick={() => form.reset()} className={`${lato.className} text-black cursor-pointer font-bold`}>
                             Reset
                         </Button>
-                        <Button type="submit" form="form-rhf-demo" className={`${lato.className} text-black font-bold cursor-pointer`}>
+                        <Button type="submit" form="form-rhf-demo" className={`${lato.className} text-white font-bold cursor-pointer`}>
                             Submit
                         </Button>
                     </Field>

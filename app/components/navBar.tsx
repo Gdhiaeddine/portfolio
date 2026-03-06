@@ -6,7 +6,7 @@ import { useState } from 'react'
 export default function NavBar() {
     const [openNavBar, setOpenNavBar] = useState<boolean>(false)
     return (
-        <div className="Header flex flex-col gap-2 md:flex-row justify-between items-center mb-4 max-w-11/12 mx-auto p-4">
+        <div className="Header flex flex-col gap-2 md:flex-row justify-between items-center mb-4 max-w-11/12 mx-auto px-4 py-2 text-white">
             <div className="logo">
                 <h1 className={`${playfair.className} text-xl font-bold lg:text-2xl`}>Zaki Tebiche</h1>
             </div>

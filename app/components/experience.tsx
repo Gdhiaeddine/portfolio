@@ -66,8 +66,8 @@ export default function Experience() {
                 {activeData.map((item, index) => (
                     <div key={index} className="flex items-center justify-center gap-6">
                         {/* Occupation */}
-                        <div className="text-right w-100">
-                            <p className={`${playfair.className} font-semibold text-gray-100 text-2xl`}>
+                        <div className="text-right w-40 md:w-100">
+                            <p className={`${playfair.className} font-semibold text-gray-100 text-xl md:text-2xl`}>
                                 {item.occupation}
                             </p>
                         </div>
@@ -80,8 +80,8 @@ export default function Experience() {
                         </div>
 
                         {/* Company & Period */}
-                        <div className="text-left w-100">
-                            <h1 className={`${lato.className} font-bold text-gray-100 text-xl`}>
+                        <div className="text-left w-40 md:w-100">
+                            <h1 className={`${lato.className} font-bold text-gray-100 text-lg md:text-xl`}>
                                 {item.company}
                             </h1>
                             <h2 className="text-sm text-gray-500">{item.period}</h2>

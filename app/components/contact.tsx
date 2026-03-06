@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className='mb-2 max-w-11/12 mx-auto'>
       <div className='flex flex-col gap-2 items-center justify-center mb-4'>
-        <h1 className={`${playfair.className} text-2xl`}>
+        <h1 className={`${playfair.className} text-2xl text-white`}>
           Contact Me
         </h1>
         <p className={`${lato.className} text-md max-w-150 text-center text-gray-500`}>
