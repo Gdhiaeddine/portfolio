@@ -4,7 +4,7 @@ import { playfair } from '../font'
 
 const AboutMe = () => {
     return (
-        <div className='my-10 flex flex-col gap-8 max-w-3/4 mx-auto lg:flex-row justify-center items-center h-full text-white'>
+        <div className='my-10 flex flex-col gap-8 max-w-3/4 mx-auto lg:flex-row justify-center items-center h-full relative text-white'>
             <div className='max-w-11/12 lg:max-w-1/2'>
                 <Image
                     src={'/picture.png'}
