@@ -49,7 +49,7 @@ const HeroSection = () => {
 
 
   return (
-    <section id='home' className="section mt-20 text-white">
+    <section id='home' className="section mt-20 text-white relative">
       <div className="home_shadow w-full h-[375px] absolute bottom-1 z-1"></div>
       <div className="mx-auto section relative flex flex-col gap-10 justify-between items-center lg:flex-row md:max-w-11/12 lg:justify-center">
         <div className={`${playfair.className} text-3xl font-bold  left-1 lg:text-5xl lg:absolute lg:top-10 `}>
