@@ -120,10 +120,20 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+
   html {
     @apply font-sans;
   }
 }
+
+.home_shadow {
+  background: linear-gradient(
+    180deg,
+    hsla(240, 100%, 2%, 0) 60%,
+    hsl(240, 100%, 2%) 80%
+  );
+  }

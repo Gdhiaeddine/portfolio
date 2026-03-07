@@ -50,7 +50,7 @@ const HeroSection = () => {
 
   return (
     <section id='home' className="section mt-20 text-white">
-      <div className="home_shadow w-full h-[375px] absolute bottom-1 z-1 bg-[linear-gradient(180deg,hsla(240,100%,2%,0)_10%,hsl(240,100%,2%)_40%)] lg:bg-[linear-gradient(180deg,hsla(240,100%,2%,0)_60%,hsl(240,100%,2%)_80%)]"></div>
+      <div className="home_shadow w-full h-[375px] absolute bottom-1 z-1"></div>
       <div className="mx-auto section relative flex flex-col gap-10 justify-between items-center lg:flex-row md:max-w-11/12 lg:justify-center">
         <div className={`${playfair.className} text-3xl font-bold  left-1 lg:text-5xl lg:absolute lg:top-10 `}>
           <h1 >Hello, </h1>
