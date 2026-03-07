@@ -129,11 +129,20 @@
     @apply font-sans;
   }
 }
-
 .home_shadow {
   background: linear-gradient(
     180deg,
-    hsla(240, 100%, 2%, 0) 60%,
-    hsl(240, 100%, 2%) 80%
+    hsla(240, 100%, 2%, 0) 10%,
+    hsl(240, 100%, 2%) 40%
   );
+}
+
+@media (min-width: 1024px) {
+  .home_shadow {
+    background: linear-gradient(
+      180deg,
+      hsla(240, 100%, 2%, 0) 60%,
+      hsl(240, 100%, 2%) 80%
+    );
   }
+}
