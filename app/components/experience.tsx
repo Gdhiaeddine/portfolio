@@ -29,6 +29,17 @@ export default function Experience() {
             company: "Ecole Superieur de management kolea - Algiers",
             period: "2018 - 2022",
         },
+        {
+            occupation: "Management",
+            company: "Ecole Superieur de management kolea - Algiers",
+            period: "2018 - 2022",
+        },
+        {
+            occupation: "Management",
+            company: "Ecole Superieur de management kolea - Algiers",
+            period: "2018 - 2022",
+        },
+        
     ];
 
     const activeData = side === "jobs" ? jobs : studies;
